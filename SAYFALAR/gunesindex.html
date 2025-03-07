@@ -1,0 +1,452 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Burç Hesaplama</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+<style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        background-color: #B672C5;
+        text-align: center;
+        height: auto;
+    }
+    header {
+        background-color: #57196E;
+        text-align: center;
+    }
+    header img {
+        width: 300px;
+        height: auto;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 20px;
+        font-size: 30px;
+        width: 20%;
+        color: white;
+    }
+    nav ul li:hover {
+        font-size: 33px;
+        width: 22%;
+        color: #C1B2C7;
+    }
+    footer {
+        background-color: white;
+        margin-top: 400px;
+        text-align: center;
+        color: white;
+        background-color: #080B43;
+    }
+    #social {
+        margin-right: 95%;
+        color: white;
+    }
+    #burcForm {
+        margin-right: 5%;
+    }
+    label {
+        font-size: 42px;
+        color: white;
+    }
+    select {
+        margin-left: 10px;
+        font-size: 40px;
+        border-radius: 20px;
+        border: 2px solid #1E0645;
+    }
+    button {
+        font-size: 40px;
+        background-color: #360E4E;
+        color: white;
+        border: 3px #210836;
+        margin-top: 50px;
+        border-radius: 10px;
+    }
+    form {
+        width: 20%;
+        margin-left: 40%;
+        margin-top: 20px;
+        border: 3px solid black;
+        padding: 20px;
+        border-radius: 30px;
+    }
+    #aciklama {
+        color: white;
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 50px;
+        background-color: #570957;
+        border-radius: 5px;
+        border: 3px solid white;
+        font-size: 17px;
+    }
+    .yorum {
+        margin-top: 5px;
+        color: #370C43;
+        width: 50%;
+        height: auto;
+        margin-left: 25%;
+        font-size: 17px;
+        background-color: white;
+        border-radius: 10px;
+        border: 3px solid black;
+		padding:10px;
+    }
+    .yorum:hover {
+        width: 53%;
+        height: auto;
+        font-size: 22px;
+        margin-left: 23.5%;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="indexana.html"><img src="../GÖRSEL/logo.png" alt=""></a>
+        </div>
+        <div id="social">
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-facebook"></i>
+        </div>
+        <div>
+            <nav>
+                <ul>
+                    <a href="bizeulasinindex.html"><li>BİZE ULAŞIN</li></a>
+           <a href="gunesindex.html"><li>GÜNEŞ BURÇ</li></a>
+           <a href="ayindex.html"><li>AY BURÇ</li></a>
+			 <a href="yukselenindex.html"><li>YÜKSELEN BURÇ</li></a>
+                </ul>
+            </nav>
+        </div>
+		
+    </header>
+    <div id="aciklama">
+        <h1>Güneş burcu nedir?</h1>
+        <p>Güneş burcu genellikle astrolojik burçların en bilinenidir. Güneş burcu, kişiliği, karakteri ve temel nitelikleri temsil eder. Örneğin, Koç burcu olan biri genellikle cesur, kararlı ve liderlik özelliklerine sahip olabilir. Güneş burcu, kişinin içsel doğasını ve en derin isteklerini yansıtır.</p>
+    </div>
+    <form id="burcForm">
+        <div><label for="gun">Gün:</label> <select id="gun"></select></div>
+        <div><label for="ay">Ay:</label> <select id="ay"></select></div>
+        <div><label for="yil">Yıl:</label> <select id="yil"></select></div>
+        <div id="sonuc" style="font-size:30px; color:white; margin-top:20px;"></div>
+        <div><button type="submit">Hesapla</button></div>
+    </form>
+	<div class="simge">
+	<img src="../GÖRSEL/oglak.png" alt="">
+		<h3>OĞLAK</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Oğlak yükselenler ağırbaşlı, ciddi, nerede nasıl davranacağını bilen, otokontrollü insanlardır. Tutumludurlar, gereksiz harcamalardan kaçınırlar. İşleri planlamak ve yönetmek konusunda iyidirler. Bu yüzden doğal bir liderlik ve patronluk nitelikleri vardır.
+
+Sorumluluk duyguları çok gelişmiştir. Ayakları yere basar. Seçtikleri meslek ne olursa olsun, kararlı ve çalışkan yapıları sayesinde kariyer yapabilir, yönetici pozisyona gelebilirler. Aynı şekilde güçlü ve yüksek konumdaki kişileri etkilemeyi başarırlar.
+
+Çok konuşkan değildirler. Çevrelerindekilerle hemen dost olmaz, önce inceler ve iyice güvenince dostluğa kabul eder. Çocukluktan kalan sağlam birkaç dost ona yeter.
+
+Evlerine ve ailelerine bağlıdırlar. İnatçı yapıları gereği kendi isteklerini uygulatma konusunda pes etmez. Oldukça sadık ve evlilik kurumuna çok önem veren kişilerdir.
+
+Çok gerçekçi, kuralcı ve pratik bir kişidir. Çok zor koşullara, zor çalışma şartlarına dahi dayanabilirler. Fiziksel görünümleri; ince, uzun bir beden, ciddi duran bir yüz ve bakışlar, büyük eller ve ayaklar. Oğlak yükselenler ciddi ifadeleri yüzünden gençken yaşlarından büyük gösterirler ama yaşları ilerledikçe tam tersine daha genç görünürler.
+
+Oğlak burcunun yönetici gezegeni Satürn etkisi ile erken yaşlarda sorumluluk alan, mücadeleci kişilerdir. Ancak kimi zaman güven sorunu yaşayabilirler ve bu kuşkucu olmalarına sebep olur. Bazen de kötümserliğe kapılabilirler. Satürn 5. enerji merkezimiz olan Vishudi çakra ile bağlantılıdır. Bu çakranın bize kazandırdığı pozitif nitelik, kolektiflik ve hayatı bir oyun gibi görüp ona izleyici konumunda bakarak neşe duyabilmektir. Oğlak yükselenler de Vişhuddi çakralarındaki, derinlerde sahip oldukları bu güçleri uyandırabilirlerse yaşadıkları zorluklara izleyici konumunda objektif bakarak hayatın tadını daha çok çıkarabilir ve kendilerini kolektiviteye yani tüm insanlığa açabilirler. Bu şekilde yalnızlık, güvensizlik ve karamsarlıktan sıyrılabilirler.</p>
+	</div>
+	
+	
+	<div class="simge">
+	<img src="../GÖRSEL/kova.png" alt="">
+		<h3>KOVA</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Kova yükselenler özgür ruhlu, ilerici ve orijinal kişilerdir. Dış görünüşleri marjinal olabilir, farklı olmayı severler. Bağımsızlıklarına düşkündürler. Ancak bağımsızlığı sadece kendileri için değil tüm insanlık için hayal ederler. Başkalarına yardım etmenin, kendi geleceklerine iyilikler getireceğinin farkındalığına ulaşmış, yardımsever kişilerdir. Kolektifliğe önem verirler, toplumsal konulara duyarlı, toplum ve insanlık yararına çalışmalar yapan kişilerdir.
+
+Entelektüel, iletişimi kuvvetli ve grup içinde kendini kolayca kabul ettiren insanlardır. Yaratıcılık ve hayalgüçleri kuvvetlidir.
+Onları seven, sayan kalabalık bir arkadaş grupları vardır. Her ne kadar dostluğa önem verse de bir taraftan mesafeli durur. Yaşam idealleri vardır ve bu ideal için kararlı adımlarla ilerlerler.
+Duygusal sayılmazlar, daha çok objektif kalıp, mantıkları ile hareket etmeye çalışırlar. Bilimsel düşünceye önem verirler. Düşünceleri çoğu zaman bulundukları zamanın çok ötesinde olabilir. Her ne kadar yenilikçi de olsalar, Kova sabit burçlardan olduğu için alışkanlıklarından kolay vazgeçmezler.
+Fiziksel özellikleri; genellikle orta boylu, oval bir yüz, dolgun ve biçimli vücut hatları vardır. Marjinal bir tarzları olabilir.
+Kova burcunu etkileyen iki gezegen vardır; Satürn ve Uranüs. Kova yükselenlerde Satürn’ün sorumluluk bilincini, Uranüs’ün yenilikçiliğini görebiliriz. 5. çakramızı da yöneten bu gezegenler Kovalar’ın karakteristik niteliklerini verirler. Vişhuddi çakra içimizde kollektifliği, hümanist duygu ve eylemleri verir. İyi çalışan bir Vişhuddi çakra sayesinde kendimizi bütünün bir parçası hissederiz. Hayata karşı daha objektif bakabilir ve iyimserliğimizi koruyabiliriz. Kova yükselenler de kendilerinde bulunan bu pozitif kaliteleri 5. çakralarını daha da temizleyerek en üstün formunda kullanabilir, orjinallikleri, ileri görüşlülük ve sezgileri ile bencillikten uzak, tüm insanlığa çok faydalı, başarılı çalışmalarda bulunabilirler.
+
+ </p>
+	</div>
+		
+	
+	<div class="simge">
+	<img src="../GÖRSEL/balık.png" alt="">
+		<h3>BALIK</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Balık yükselenler oldukça duygusal, çevresine duyarlı, empatik, hassas ve sanatçı ruhlu kişilerdir. Aynı zamanda çok sevimli, güvenilir, sevilen, canayakındırlar. Çocukken çok hareketli ve yaramaz olabilirler.
+Çoğu zaman alçakgönüllü ve sıkılgan bir mizaçları vardır. Uyumlu kişilerdir.
+En belirgin özellikleri merhametli ve yardımsever olmalarıdır. Bu şekilde insanlara güven verirler, ancak kendilerine güvenleri zayıf olabilir. Girişim yapmakta, adım atmakta kararsızlık çekebilirler. Eğer haritalarında olumsuz etkiler varsa, gerçeklerden kaçan içe kapanık kişiler olabilirler. Kimi zaman karamsarlık ve özgüven eksikliği yaşayabilirler.
+
+Müzik, dans, edebiyat kısacası sanat onları etkiler. Hayalgüçleri geniştir. Sanala uğraşmak onları mutlu eder.
+Uysal, sessiz de görünseler kimi zaman inatçı olabilirler. Önem verdikleri konularda sonuna kadar kendi bildiklerini yapma konusunda diretirler. Bunu kavgacı şekilde yapmasa da sessizce yine kendi bildiğini yapacaktır.
+Ruhani konulara ilgi duyan, aydınlanmayı isteyen saf kişilerdir. Duygularını yoğun yaşar, çabuk ağlayan, çabuk gülen kişilerdir.
+Fiziksel özellikleri; genellikle narin kemikli, orta boyludur, minyon yapıdadırlar. Balıketinde yada şişman olabilirler. Genellikle hülyalı, derin bakışlı ve hafif çekik gözlüdürler.
+
+Balık burcu iki gezegenin etkisi altındadır; 3. çakramızı yöneten Jüpiter ve 6. çakramızla bağlantılı olan Neptün. Jüpiter tarafından yönetilen 3. çakramız içimizde dengeyi, tatminkarlığı ve beslenmeyi ifade eder. Zararlı beslenmek ve alışkanlıklar(alkol vs.) bu çakraya zarar vererek 3. çakranın hassasiyetini ve içsel dengemizi zedeler. O yüzden balıklar sağlıklı beslenmeye özen göstermelidirler. Balık yükselenler ayrıca kilo almaya meyillidirler. 3. çakrada tatminkarlığı güçlendirerek ve gereğinden fazla yemeyerek ideal kilomuzu koruyabiliriz. 3. çakra ayrıca gerçeği arayışı verir. Balıklarda da güçlü bir arayış vardır. Kendilerini gerçekleştirdikçe özgüvenleri artar. Meditasyon bu burç için çok uygundur.
+Neptün ise Agnya çakra adı verilen alnımızda yer alan 6. çakramızı etkiler. 6. çakranın kalitesi affedicilik, merhametdir. Kişinin kendine acıması, karamsar ve olumsuz düşünceler ve geçmişten getirdiğimiz şartlanmalar 6. çakramızı olumsuz etkiler. Balık yükselenler doğuştan gelen affedicilik ve merhamet niteliklerini kullanarak ve başkalarına olduğu kadar kendilerine de değer vererek ve öz saygı geliştirerek içlerinde varolan evrensel sevgi hissiyle insanlığa çok faydalı olabilirler.
+
+Burçların Genel Özellikleri</p>
+	</div>
+	
+	
+	
+	<div class="simge">
+	<img src="../GÖRSEL/koc.png" alt="">
+		<h3>KOÇ</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Yükselen burcu Koç olan kişiler çok enerjik ve hareketlidirler. Kişi çabuk heveslenen ve çabuk sıkılan bir yapıya sahiptir. Bağımsızlığına düşkündür ve kısıtlanmaktan hoşlanmaz. Azimlidir ve daima başarılı olmak için çaba harcar. Sosyal, neşeli ve cana yakın yapısıyla kolayca arkadaş edinir. Kendini rahat ifade eder, özgüven sahibidir ve dikkat çekmeyi sever.
+
+Yükselen Koçların adalet duygusu çok gelişmiştir ve haksızlığa tahammülü yoktur. Duygularını gizleyemez ve hemen dışa vurur. Bu bazen düşünmeden tepkiler vermesine sebep olabilir. Ancak öfkesi çabuk yatışır ve hatasını fark edince hemen telafi etmek ister. Kinci değildirler ve çocuk gibi onları etkilemek kolaydır. Liderlik ve organizasyon yetenekleri vardır.
+
+Yükselen Koç burcu kişiye uzun boy ve atletik bir görüntü verir. Omuzlar geniş olur. Yüz yapısı, uzun ince ve karakteristiktir. Gözler dikkat çekici ve etkilidir. Ten rengi buğday ya da daha koyu renkte olabilir.
+Koç burcunu yöneten Mars gezegeni 1. enerji merkezimizle bağlantılıdır.  Yükseleni Koç olanlar 1. enerji merkezlerinin niteliği olan masumiyet, saf neşe ve bilgelik kalitelerini güçlendirerek anlık tepkilerinin üstesinden gelebilir ve çevrelerinin örnek aldığı ve hayran olduğu, alçakgönüllü ve lider kalitelerinde bir kişi olabilirler.
+
+ </p>
+	</div>
+	
+	<div class="simge">
+	<img src="../GÖRSEL/boga.png" alt="">
+		<h3>BOĞA</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Yükseleni Boğa olan kişilerin yorulmak bilmeyen bir enerjileri vardır ve çok dayanıklıdırlar. Ayakları yere basan, sebatkar kişilerdir. Arkadaşlarına dostlarına çok kıymet verirler.
+
+Yemeyi, içmeyi ve gezmeyi çok severler. Alışveriş yapmayı, sevdiklerine hediyeler almayı, dostlarıyla keyifli vakit geçirmeyi de çok severler. Hayatın tadını çıkarmayı bilirler. Yakın dostları ile çok eskiye dayanan ve sağlam dostlukları vardır.
+
+Zevkli ve hoş kişilerdir. Estetik değerleri takdir edebilirler. Evlerine önem verirler. Evlerinde ki huzur onlar için önemlidir. Sezgileri çok güçlüdür ve duygusaldır.
+Çok sabırlı, sakin görünüşlü, dayanıklı da olsalar, eğer bir kez öfkelendiler mi onları yatıştırmak çok güçtür. Değiştirmek istese dahi alışkanlıklarından kurtulmakta zorlanabilir.
+Fiziki görünümü; genellikle, orta boylu ve tıknazdır. Teni buğday tenli veya esmerdir. Gözleri iri ve koyu renklidir. Venüs etkisi ile güzel ve etkileyici bir görünümleri vardır. Yeme-içmeye düşkünlüğü sebebiyle kilo almaya yatkın olabilir.
+
+Konuksever kişilerdir. Bu dünyaya, somut değerlere, maddeye bağlıdırlar. Ancak bu, maddiyatçılık boyutuna gelmemelidir. Sevdiklerine karşı bazen kıskanç tutum içine girebilirler. Boğa burcunu yöneten gezegen Venüs, 4. enerji merkezimiz olan Kalp çakrayı etkilediği için, Boğa yükselenli kişilerin kalp çakrada varolan, bağımsız, maddiyata dayanmayan, saf sevgiyi geliştirmeleri önemlidir. Bu şekilde etraflarında sevgi ve huzura büyük katkı sağlayabilirler.</p>
+	</div>
+
+	
+	<div class="simge">
+	<img src="../GÖRSEL/ikizler.png" alt="">
+		<h3>İKİZLER</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>İkizler yükselenler değişikliği ve hareketi çok severler. Zihinlerini sürekli meşgul tutacak yeni şeyler öğrenmeyi, değişik faaliyetler yapmayı severler. Hareketli ve sosyal bir yapıları vardır. Bu sayede çabuk arkadaş edinirler, çevreleri çok geniştir. Okumayı çok seven, entelektüel kişilerdir.
+
+Yaratıcı kişilikleri vardır. Çok güzel konuşabilirler veya yazabilirler. Öğretmenlik nitelikleri taşırlar. İkna kabiliyetleri vardır. Araştırmayı ve öğrenmeyi çok sevdikleri için, pek çok konu hakkında fikir sahibidir.  Ancak çabuk sıkılabilen yapıları gereği çok derinlemesine inemezler çoğu zaman. Sanata, edebiyata ve kısa süreli sehayatlere düşkündürler.
+
+Fiziksel özellikleri; ince, uzun boylu, narin kemiklidirler. Keskin dikkatli, gözlemci bakışları vardır.
+
+Çok sayıda arkadaşları vardır. Canayakın ve sohbeti seven kişilerdir. Kararsızlık yaşayabilirler. Karasızlık ve sabırsızlıkla kimi zaman dikkatlerinin dağınık olmasına ve sinirli olmalarına yol açabilir. İkizler burcunu yöneten Merkür gezegeni 2. enerji merkezimizle bağlantıdadır. 2. çakra öğrenme, yaratıcılık, saf dikkati ve saf bilgiyi yönetir. İkizler yükselenler eğer 2. çakralarını dengeli kullanabilmeyi başarırlarsa, içlerindeki saf dikkatin ve saf bilginin uyanması ile yaratıcılıklarını en üst şekilde kullanabilir ve çevrelerine bilgiyi en güzel şekilde öğretebilirler.
+
+ </p>
+	</div>
+	
+	
+	<div class="simge">
+	<img src="../GÖRSEL/yengec.png" alt="">
+		<h3>Yengeç</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Yengeç yükselenler duygusal kişilerdir. İncitilmekten çok rahatsız olduklarından başkalarını incitmekten çekinirler. Hayalgüçleri güçlüdür. Hisleri ile hareket ederler. Evlerine, ailelerine bağlıdırlar. Evlerinde ki huzur onlar için çok önem taşır. Eğer yaşadıkları ortamda huzurlu değillerse, bu tüm sinir sistemlerini etkileyebilir. Birlikte yaşadıkları kişilerle uyum içinde olmaya, anlaşmaya gayret ederler. Bunu başaramazlarsa kendi içlerine kapanabilirler.
+
+
+
+Tutumlu kişilerdir. Ancak onlardan yardım isteyen bir kişi olursa yardımsever ve fedakar yaradılışlarından ötürü geri çeviremezler.
+Sanata, müziğe, dansa yeteneklidirler. Yemek yapmayı seven, anaç yapıda kişilerdir. Çevrelerindeki insanların duygularına karşı duyarlıdırlar. Empatiktir. Sezgileri güçlüdür.
+
+Evliliğe, aileye önem verirler. Genç yaşta evlenebilirler. Sakin insanlar olmalarına karşın, girişimci ve öncü yapıları vardır. Kimsenin cesaret edemediği yenilikleri yapabilirler.
+
+Fiziksel özellikleri; genellikle, açık tenli, ay yüzlü, yuvarlak yumuşak yüz hatları vardır. Orta boyludur. Sakin ve bazen ürkek mizaçlıdır. Yengeç yükselenli erkeklerde kelleşme görülebilir.
+
+Yengeç’in yönetici gezegeni Ay’dır. Ay çok hızlı burç değiştirdiği için Yengeç yükselenlerin de ruh halleri sık değişim gösterebilir. Ancak bu aynı zamanda değişime yüksek uyum gösterme niteliği de bahşeder. Ay 7. enerji merkezimiz ile bağlantılıdır. 7. çarka aydınlanmayı, Evrensel enerji ile bütünlüğü sağlar. Yengeçler yükselen kişiye ruhani bir mizaç verir.</p>
+	</div>
+	
+	
+	<div class="simge">
+	<img src="../GÖRSEL/aslan.png" alt="">
+		<h3>ASLAN</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Aslan yükselen çok enerjik, özgüvenli ve çevrelerinde dikkat çeken hemen fark edilen kişilerdir. Bir aslan gibi güçlü olmayı, öne çıkmayı severler. Öfkelenirlerse çabuk parlayan ancak aynı hızla sönen bir mizaçları vardır. Kinci değildirler. Dahası çok bağışlayıcı ve yücegönüllü kişilerdir.
+
+Aslan yükselenler oldukça cömerttir. Gururlu, yürekli ve eliaçıktırlar.
+
+İnsanları etkileme, liderlik yetenekleri yüksektir. Konuşmalarındaki heyecanlı, tutkulu tavırları diğer insanları da etkiler. Genellikle çevrelerinde beğenilen ve saygı duyulan kişilerdir.
+
+Çocukları çok severler ve iyi anlaşırlar. Aslında kendileri de çocuk gibidir. Hayat dolu, neşeli ve yaratıcı insanlardır. Ayrıca artistik yetenekleri çok gelişmiştir. Rol kabiliyetleri vardır.
+
+Fiziksel özellikleri; genellikle iri ve dikkat çekici kişilerdir. Saçları aslan yelesi gibi gürdür. Geniş, aydınlık alınları vardır. Geniş omuzludur ve kendine güvenen bir yürüyüş tarzı vardır.
+
+Bazen aşırı özgüvenleri ile kendilerini çok önemseme ve üstünlük duygusuna kapılabilirler. Alçakgönüllülüğü geliştirmeleri önemlidir. Aslan burcunu Güneş yönetir. Güneş 6. enerji merkezimizle bağlantılıdır. 6. çarka içimizde affedicilik, alçakgönüllülük gibi nitelikleri taşır. 6. çakranın temizlenmesi ile kişi bu kaliteleri içinde kolayca uyandırabilir.</p>
+	</div>
+	
+	
+	<div class="simge">
+	<img src="../GÖRSEL/basak.png" alt="">
+		<h3>BAŞAK</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Başak yükselenler titiz, tertipli kişilerdir. Ayrıntılara dikkat eden, hemen kavramaya yeteneği olan, mantıklı, pratik ve zeki kişilerdir. Oldukça mükemmeliyetçidirler. Bazen bu konuda aşırıya kaçabilir ve takıntılı olabilirler. Çevrelerine hizmet etmeyi seven, çalışkan kişilerdir. İşyerinde sevilen ve güvenilen çalışanlardır.
+
+Çevrelerindeki ayrıntılara dikkat eder ve aksamaları görünce eleştirmeye yatkındırlar.
+
+Sağlıklarına düşkündürler. Sağlık sektöründen bir işleri olabilir. Temizliğe, hijyene çok dikkat ederler. Sağlıklı yaşamaya, sağlıklı beslenmeye çalışırlar. Doğayı, hayvanları severler.
+
+Sözcüklere hakim olmaları ve gözlem güçleri, iyi bir araştırmacı, akademisyen, gazeteci veya yorumcu olmalarını sağlayabilir. Duygularını çok dışa vurmazlar, akılcı ve bilimsel yaklaşmayı tercih ederler. Sosyal hayatta arkadaş canlısı, esprili ve muziptir.
+Fiziksel özellikleri; ince ve uzun yapıdadırlar. Genç görünümleri, gözlemci bakışları, küçük gözleri vardır.
+
+Başak burcu Merkür tarafından yönetilir. Merkür 2. enerji merkezimiz olan Svadistan çakra ile bağlantılıdır. Bu çakra içimizde saf dikkat, saf bilgi ve saf yaratıcılığı verir. Araştırmacı detaycı başak burcu saf bilgiyi arayışı sırasında bazen çok detay düşünmesinin kurbanı olur.  Eğer Başak yükselenler Svadistan çakralarını pozitif yönde kullanabilirlerse, hep arzu ettikleri gerçek bilgilere, detaylarda boğulmamış, aksine dinlenmiş bir aklın ve dikkatin ışığında kolayca ulaşabilirler. Bu şekilde toplumu etkileyecek ilerici ve aydınlık düşünceler yaratabilirler.</p>
+	</div>
+	
+	<div class="simge">
+	<img src="../GÖRSEL/terazi.png" alt="">
+		<h3>TERAZİ</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Terazi yükselenler denge, uyum ve güzelliğe önem verirler. Zarif, canayakın kişilerdir. Her zaman adaletten yanadır. Huzursuzluğun yada münakaşanın olduğu yerde durmaktan hoşlanmazlar. Diplomatik beceriye sahiptirler. Bu sayede çevrelerinde aranılan sevilen kişilerdir. Kolay arkadaşlık kurarlar, arkadaşları ile çok ilgilenir, onların sorunlarını dinler, yardımcı olmaya çalışır.  Dostça ama biraz mesafeli kişilikleri vardır.
+
+Ortaklığa, evliliğe, işbirliğine yatkındır. Tek başına kalmaktansa, başkalarıyla birlikte sosyal olmayı severler.
+Evlerindeki tertip, düzen ve estetik görünüme önem verirler. Çevrelerini güzelleştirmek konusunda yeteneklidirler. Konfora, lükse, güzel olan şeylere meraklıdırlar.
+Sanatsal yetenekleri vardır. Sevgi ihtiyaçları vardır. Sosyal hayatta çok uyumlu ve sevilen kişilerdir.
+Fiziksel nitelikleri; narin, zarif görünümlü, giyimine ve dış görünümüne önem veren, dikkat çeken yüz güzelliği vardır.
+Terazi burcunu yöneten Venüs, aynı zamanda kalp çakramızı da yönetiyor. Kalp çakra en üstün sevgi duygularının çakrasıdır.
+Güzel çalışan bir kalp çarka ile kişi sevgi gezegeni Venüs’ün enerjisini çevresine çok güzel yansıtabilir. Çevresine güzellik katabilir. Kalp çakralarını geliştirdikçe, Terazi yükselenler sadece maddi olarak çevrelerini güzelleştirmek değil, aynı zamanda insanları, hatta dünyayı güzelleştirebilecek bir vizyona ve güce sahip olabilirler. Saf sevgiyi ortaya çıkararak, doğuştan taşıdıkları sevgi ve uyumu tüm insanlara örnek olacak şekilde adalet ve sevgiyi yayabilirler.</p>
+	</div>
+	
+	
+	<div class="simge">
+	<img src="../GÖRSEL/akrep.png" alt="">
+		<h3>AKREP</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Akrep yükselenli kişiler, azimli, kararlı ve soğukkanlıdırlar. Duygularını açıklamazlar, kendilerine hakim ve sağlam iradelidirler. Gözlem güçleri müthiştir. En gizli yada anlaşılmaz bir durumu dahi yüksek sezgi ve gözlem güçleri ile fark ederler.
+
+Çok konuşkan değildirler. Gerçekten önemli olduğunu düşündükleri şeyleri konuşurlar, yani az ve öz konuşurlar. Daha çok başkalarını konuşturup dinlerler ve insanları incelerler. Kendi konuşmaları kontrollü ve ölçülüdür.
+Akrep yükselenler evlerinde kendilerini iyi hisseder. Evinde daha neşeli ve konuşkan olur.
+Maddi güvence ve güç onlar için önemli olabilir. Sabırlı ve hedefleri doğrultusunda yorulmadan çalışabilen güçlü kişilerdir. Maddiyatı aşarlarsa  ruhani yönden çok gelişme gösterebilirler.
+Çevrelerini etkileyebilme güçleri vardır. Sevdiklerine karşı sahiplenici ve bazen kıskanç olabilirler.
+İçlerinde yoğunlaşmış büyük bir enerji vardır. Ancak bu enerjiyi bir anda tüketmekten, dışa vurmaktansa, uzun vadeli hedefleri ve yaşam amacı için adım adım ve sabırlı bir şekilde kullanır. Kafasına koyduğunu başarır.
+
+Oldukça dayanıklı kişilerdir, bünyeleri sağlamdır. Çoğu zaman alışkanlıklarına düşkün ve sabit fikirli de olsalar eğer bir kez kafalarına koyalar ise istemedikleri özelliklerini hemen değiştirebilirler. Kendilerini ve hayatlarını dönüştürme güçleri vardır.
+
+Fiziksel özellikleri; genellikle kısa boylu ve sağlam bünyeleri vardır. İridirler. Bakışları keskin ve etkileyicidir.
+
+Akrep gücün, derin dönüşümlerin gezegeni Plüton’un etkisi altındadır. Plüton gizem, derin bir kavrayış ve sezgi gücü veriyor. Plüton Sahasrara çakra denilen başın tepe noktasındaki son çakramız ile bağlantılıdır. Tanrısal güçle, ezeli kozmik enerjiyle bağlantımızı sağlar. Astrolojide Plüton derin dönüşümler gerçekleştiren, kişiye doğal bir karizma ve etkileyicilik veren bir gezegendir.  Plüton’dan kaynaklanan bu güçlerini olumlu kullanırlarsa çok iyi ruhani gelişim sergileyebilirler. Çevrelerinde iyi bir önder olabilirler. Ancak bunun için kendi içlerinde zayıf yanlarını görüp, şüphe ve kuşkuculuklarını yenip, egolarını aşmaları gerekmektedir. Ancak o zaman tanrısal sevginin dönüştürücü gücüne kanal olabilirler.</p>
+	</div>
+	
+	
+	<div class="simge">
+	<img src="../GÖRSEL/yay.png" alt="">
+		<h3>YAY</h3>
+	</div>
+	<div class="yorum">
+	
+		<p>Yay yükselenler oldukça neşeli, iyimser ve iyi huylu kişilerdir. Özgürlüklerine çok düşkündürler. Hareketli ve gezmeyi, seyahat etmeyi seven insanlar olurlar. İşlerini de genellikle özgürce hareket edebilecekleri, onları kısıtlamayacak alanlardan seçerler.
+
+Spor yapmayı severler. Hareketlerinin kısıtlanmasından hiç hoşlanmazlar. Sosyal ve çok arkadaş canlısıdırlar. Çevrelerinde neşeli, esprili tutumuyla aranan ve sevilen arkadaşlar olurlar.
+Sezgi güçleri gelişmiştir. Her şeyi çabuk kavrayan zeki kişilerdir. Heyecanlı ve öğrenmeye, bilgi edinmeye düşkün, ama çoğu zaman maymun iştahlı kişilerdir.
+
+Eliaçık ve cömerttirler. Jüpiter’den ötürü bolluk ve bereketleri eksik olmaz. Kısmetlidirler. Başka ülkeleri gezmek, değişik kültürleri görüp tanımak isterler.
+Adaletli, ahlaklı ve erdemlidirler. Dürüstlüğe önem verirler. Felsefeye, inanışlara meraklıdır ve kendini ve hayatı anlamaya çalışır.
+İyi niyetli ve esprili kişilerdir ancak bazen patavatsızlıkları ile çevrelerinin tepkisini çekebilirler.
+Fiziksel özellikleri; genellikle uzun boylu, biçimli, atletik yapılıdırlar. Geniş bir alın, asil yüz hatları vardır. Ten buğday renkli, sempatik bir mizaçları vardır.
+
+Yay burcunun gezegeni olan Jüpiter 3. çakramızı yani Nabhi çakrayı yönetir. 3. çakramızda içimizde tatminkarlığı ve dengeli tutumları ve cömertliği verir. 3. çakramızın diğer bir özelliği ise hayatımızı belli sınırlar içinde daha kaliteli yaşamamızı ve evrim yolunda ilerlememizi sağlayan ahlaki ve erdemli nitelikleri bize sağlamasıdır. Jüpiter’in enerjisi Yay yükselenleri doğal olarak erdemli ve ahlaklı, ilkeli yaşayan insanlar yapabilir.
+
+ </p>
+	</div>
+		
+	
+    <footer>
+        <div>
+            <h1>ASTROLOJİ HAYATIN KISAYOLUDUR</h1>
+            <p>TÜM HAKLARI SAKLIDIR &copy;</p>
+        </div>
+    </footer>
+    <script>
+        function burcHesapla(gun, ay) {
+            const burclar = [
+                { isim: "Oğlak", baslangic: { ay: 1, gun: 1 }, bitis: { ay: 1, gun: 20 } },
+                { isim: "Kova", baslangic: { ay: 1, gun: 21 }, bitis: { ay: 2, gun: 19 } },
+                { isim: "Balık", baslangic: { ay: 2, gun: 20 }, bitis: { ay: 3, gun: 20 } },
+                { isim: "Koç", baslangic: { ay: 3, gun: 21 }, bitis: { ay: 4, gun: 20 } },
+                { isim: "Boğa", baslangic: { ay: 4, gun: 21 }, bitis: { ay: 5, gun: 21 } },
+                { isim: "İkizler", baslangic: { ay: 5, gun: 22 }, bitis: { ay: 6, gun: 22 } },
+                { isim: "Yengeç", baslangic: { ay: 6, gun: 23 }, bitis: { ay: 7, gun: 22 } },
+                { isim: "Aslan", baslangic: { ay: 7, gun: 23 }, bitis: { ay: 8, gun: 22 } },
+                { isim: "Başak", baslangic: { ay: 8, gun: 23 }, bitis: { ay: 9, gun: 22 } },
+                { isim: "Terazi", baslangic: { ay: 9, gun: 23 }, bitis: { ay: 10, gun: 22 } },
+                { isim: "Akrep", baslangic: { ay: 10, gun: 23 }, bitis: { ay: 11, gun: 21 } },
+                { isim: "Yay", baslangic: { ay: 11, gun: 22 }, bitis: { ay: 12, gun: 21 } },
+                { isim: "Oğlak", baslangic: { ay: 12, gun: 22 }, bitis: { ay: 12, gun: 31 } }
+            ];
+
+            for (const burc of burclar) {
+                if (
+                    (ay === burc.baslangic.ay && gun >= burc.baslangic.gun) ||
+                    (ay === burc.bitis.ay && gun <= burc.bitis.gun)
+                ) {
+                    return burc.isim;
+                }
+            }
+            return "Geçersiz tarih";
+        }
+
+        const form = document.querySelector("#burcForm");
+        const sonucDiv = document.querySelector("#sonuc");
+
+        form.addEventListener("submit", function (event) {
+            event.preventDefault();
+
+            const gun = parseInt(document.querySelector("#gun").value, 10);
+            const ay = parseInt(document.querySelector("#ay").value, 10);
+            const yil = parseInt(document.querySelector("#yil").value, 10);
+
+            const burc = burcHesapla(gun, ay);
+            sonucDiv.textContent = `Burcunuz: ${burc}`;
+        });
+
+        const gunSelect = document.querySelector("#gun");
+        const aySelect = document.querySelector("#ay");
+        const yilSelect = document.querySelector("#yil");
+
+        for (let i = 1; i <= 31; i++) {
+            const option = document.createElement("option");
+            option.value = i;
+            option.textContent = i;
+            gunSelect.appendChild(option);
+        }
+
+        for (let i = 1; i <= 12; i++) {
+            const option = document.createElement("option");
+            option.value = i;
+            option.textContent = i;
+            aySelect.appendChild(option);
+        }
+
+        const currentYear = new Date().getFullYear();
+        for (let i = currentYear; i >= 1900; i--) {
+            const option = document.createElement("option");
+            option.value = i;
+            option.textContent = i;
+            yilSelect.appendChild(option);
+        }
+    </script>
+</body>
+</html>

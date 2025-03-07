@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Untitled Document</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin:0;
+      padding:0;
+    }
+    body {
+      background-color: #B672C5;
+      text-align: center;
+      height: auto;	
+		font-family: "crimson-text";
+    }
+    header {
+      background-color: #57196E;
+      text-align: center;
+    }
+    header img {
+      width: 300px;
+      height: auto;
+    }
+    nav ul li {
+      display: inline-block;
+      padding: 20px;
+      font-size: 30px;
+      width: 20%;
+      color: white;
+    }
+    nav ul li:hover{
+      font-size: 33px;
+      width: 22%;
+      color: #C1B2C7;
+    }
+    footer {
+		height: 20%;
+      text-align: center;
+      color: white;
+      background-color: #080B43;
+    }
+    .video-container {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+    .video-item {
+      position: relative;
+      width: 25%;
+      text-align: center;
+      margin-bottom: 20px;
+	  background-color: #57196E;
+      border: 5px solid #57196E; 
+      border-radius: 10px; 
+      overflow: hidden; 
+    }
+    .video-item p {
+      color: white;
+      font-weight: bold;
+      padding: 10px;
+      font-size: 20px;
+      margin-top: 10px;
+    }
+    video {
+      width: 85%; 
+      height: auto;
+      margin: 0 auto;
+      display: block;
+    }
+    .video-item::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(to bottom, transparent, white);
+      opacity: 0.7;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+    .video-item:hover::after {
+      opacity: 0;
+    }
+    #social {
+      margin-right: 95%;
+      color: white;
+    }
+	  #x{
+		  font-size:35px;
+	  }
+	  img {
+       width: 15%; 
+       height: auto; 
+       margin-bottom: 10px; 
+         }
+.astro-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  width: 80%;
+  margin: 40px auto;
+}
+
+  .astro-item {
+    width: 70%;
+    background-color: #471D5C;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    border: 2px solid #B672C5;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  .astro-item:hover {
+    transform: scale(1.03);
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.4);
+  }
+  .astro-item img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    border: 2px solid #0A043F;
+  }
+  .astro-item h3 {
+    font-size: 20px;
+    margin: 10px 0 8px;
+  }
+  .astro-item p {
+    font-size: 18px;
+    color: white;
+    text-align: justify;
+    line-height: 1.5;
+  }
+	  .video-text{
+		  margin:5%;
+		  color:white;
+		  font-size: 20px;
+	  }
+  </style>
+</head>
+<body>
+  
+  <header>
+
+      <a href="indexana.html"><img src="../GÖRSEL/logo.png" alt=""></a>
+   
+    <div id="social">
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-facebook"></i>
+    </div>
+    <div>  
+      <nav>
+        <ul>
+          <a href="bizeulasinindex.html"><li>BİZE ULAŞIN</li></a>
+           <a href="gunesindex.html"><li>GÜNEŞ BURÇ</li></a>
+           <a href="ayindex.html"><li>AY BURÇ</li></a>
+			 <a href="yukselenindex.html"><li>YÜKSELEN BURÇ</li></a>
+        </ul>
+      </nav>
+    </div>
+  </header>
+ 
+ <div class="video-container">
+    <div class="video-item">
+      <video class="myVideo" autoplay muted loop>
+        <source src="../VİDEO/video4.mp4" type="video/mp4">
+      </video>
+      <div class="video-text">Astroloji, gezegenlerin konumlarını inceleyerek insanların karakterlerini ve kaderlerini anlamaya yardımcı olur.</div>
+    </div>
+    <div class="video-item">
+      <video class="myVideo" autoplay muted loop>
+        <source src="../VİDEO/video2.mp4" type="video/mp4">
+      </video>
+      <div class="video-text">Doğum haritası, kişinin doğduğu anda gezegenlerin dizilimlerini gösteren ve hayat yolunu anlamasına yardımcı olan bir haritadır.</div>
+    </div>
+    <div class="video-item">
+      <video class="myVideo" autoplay muted loop>
+        <source src="../VİDEO/video3.mp4" type="video/mp4">
+      </video>
+      <div class="video-text">Güneş burcu, kişinin temel karakter özelliklerini belirlerken, Ay burcu duygusal dünyasını yansıtır.</div>
+    </div>
+  </div>
+	
+	  <div class="astro-container">
+  <div class="astro-item">
+    <img src="../GÖRSEL/astrolog4.jpg" alt="Lale Aydın">
+    <h3>Lale Aydın</h3>
+    <p>Lale Aydın, karmik astroloji ve spiritüel rehberlik konularında uzmanlaşmıştır. Psikoloji ve astropsikoloji alanında yüksek lisans yapan Lale, analitik ve şefkatli bir yaklaşım benimseyerek danışanlarının geçmiş yaşam etkilerini anlamalarına ve şimdiki hayatlarına dair derin içgörüler kazanmalarına yardımcı olur. En sevdiği burç Akrep olan Lale, boş zamanlarında reiki, yoga ve klasik müzikle ilgilenir.</p>
+  </div>
+  
+  <div class="astro-item">
+    <img src="../GÖRSEL/astrolog3.jpg" alt="Melis Doğan">
+    <h3>Melis Doğan</h3>
+    <p>Melis Doğan, kariyer astrolojisi ve finansal astroloji alanlarında uzman bir astrologdur. Ekonomi ve astroloji üzerine çift anadal yapmış olan Melis, pragmatik bir rehberlik sunarak danışanlarının iş ve finansal hayatlarını gezegen döngüleriyle uyumlu hale getirmelerini sağlar. Favori burcu Oğlak olan Melis, dağ yürüyüşü yapmayı, yabancı diller öğrenmeyi ve dünya mutfaklarını denemeyi sever.</p>
+  </div>
+  
+  <div class="astro-item">
+    <img src="../GÖRSEL/astrolog2.jpg" alt="Eren Yılmaz">
+    <h3>Eren Yılmaz</h3>
+    <p>Eren Yılmaz, mundane astroloji (dünya olayları astrolojisi) ve politik astroloji alanlarında derin bilgiye sahiptir. Uluslararası ilişkiler ve astroloji alanında doktora yapmış olan Eren, küresel olaylar, tarihsel döngüler ve gezegen etkileri arasında bağlantılar kurarak danışanlarının dünyadaki büyük değişimlere hazırlanmalarına yardımcı olur. Kova burcunu çok seven Eren, fotoğrafçılık, antik tarih araştırmaları ve satrançla ilgilenir.</p>
+  </div>
+  
+  <div class="astro-item">
+    <img src="../GÖRSEL/astrolog1.jpg" alt="Bora Keskin">
+    <h3>Bora Keskin</h3>
+    <p>Bora Keskin, ilişki astrolojisi ve sinastriler konusunda uzmanlaşmış bir astroloji danışmanıdır. Sosyoloji ve astroloji alanlarında eğitim almış olan Bora, çiftlerin haritalarını analiz ederek ilişkilerdeki uyum ve zorlukları açıklar ve bireylerin kişisel ilişkilerde kendilerini daha iyi ifade etmelerine yardımcı olur. En sevdiği burç Terazi olan Bora, modern dans, sanat galerilerini gezmek ve kahve demleme teknikleriyle ilgilenir.</p>
+  </div>
+</div>
+	
+  <footer>
+    <div>
+      <h1>ASTROLOJİ HAYATIN KISAYOLUDUR</h1>
+      <p>TÜM HAKLARI SAKLIDIR &copy;</p>
+    </div>
+  </footer>
+	
+  <script>
+    var videos = document.querySelectorAll('.myVideo');
+    videos.forEach(function(video) {
+      video.controls = false;
+    })
+  </script>
+</body>
+</html>
